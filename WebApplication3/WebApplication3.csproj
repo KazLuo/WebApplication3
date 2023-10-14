@@ -144,6 +144,10 @@
     <Compile Include="Migrations\202310140748106_create Club.Designer.cs">
       <DependentUpon>202310140748106_create Club.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202310140852360_update org.cs" />
+    <Compile Include="Migrations\202310140852360_update org.Designer.cs">
+      <DependentUpon>202310140852360_update org.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Org.cs" />
     <Compile Include="Models\Member.cs" />
@@ -207,6 +211,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202310140731200_create org.resx">
       <DependentUpon>202310140731200_create org.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202310140852360_update org.resx">
+      <DependentUpon>202310140852360_update org.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

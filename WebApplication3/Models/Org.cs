@@ -25,5 +25,7 @@ namespace WebApplication3.Models
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:d}")]//進行編輯操作時能夠看到適當格式的日期時間
         [DataType(DataType.DateTime)]//送出時驗證是不是時間格式
         public DateTime InitDate { get; set; }
+        [Display(Name = "單位成員")]
+        public virtual ICollection<Member> Members { get; set; }
     }
 }
