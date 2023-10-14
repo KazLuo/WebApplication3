@@ -12,7 +12,7 @@ namespace WebApplication3.Models
         {
         }
 
-
+        public virtual DbSet<Org> Orgs { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
