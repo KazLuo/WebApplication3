@@ -132,11 +132,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202310140731200_create org.cs" />
+    <Compile Include="Migrations\202310140731200_create org.Designer.cs">
+      <DependentUpon>202310140731200_create org.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202310140735594_add Member.cs" />
+    <Compile Include="Migrations\202310140735594_add Member.Designer.cs">
+      <DependentUpon>202310140735594_add Member.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202310140748106_create Club.cs" />
     <Compile Include="Migrations\202310140748106_create Club.Designer.cs">
       <DependentUpon>202310140748106_create Club.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Org.cs" />
+    <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Club.cs" />
     <Compile Include="Models\test1014_2Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -193,6 +203,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202310140731200_create org.resx">
+      <DependentUpon>202310140731200_create org.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202310140735594_add Member.resx">
+      <DependentUpon>202310140735594_add Member.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202310140748106_create Club.resx">
