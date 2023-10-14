@@ -12,6 +12,7 @@ namespace WebApplication3.Models
         {
         }
 
+        public virtual DbSet<Club> Clubs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
